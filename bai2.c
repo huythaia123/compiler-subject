@@ -31,12 +31,8 @@ int main(int argc, char const *argv[]) {
     s[2].op_dot = 3;
     s[2].op_sign = s[2].op_other = 5; /* err */
 
-    // s[3].op_digit = 4;
-    // s[3].op_sign = s[3].op_other = s[3].op_dot = 5; /* err */
     s[3].op_digit = 4;
-    s[3].op_dot = 5;
-    s[3].op_other = 5;
-    s[3].op_sign = 5;
+    s[3].op_dot = s[3].op_other = s[3].op_sign = 5;
 
     s[4].op_digit = 4;
     s[4].op_dot = s[4].op_other = s[4].op_sign = 5; /* err */
