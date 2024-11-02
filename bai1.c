@@ -19,11 +19,9 @@ int main(int argc, char const *argv[]) {
     struct Stage s[2];
 
     s[0].op_alpha = 1;
-    s[0].op_digit = 2; /* err */
-    s[0].op_other = 2; /* err */
+    s[0].op_digit = s[0].op_other = 2; /* err */
 
-    s[1].op_alpha = 1;
-    s[1].op_digit = 1;
+    s[1].op_alpha = s[1].op_digit = 1;
     s[1].op_other = 2; /* err */
 
     char token[100];
